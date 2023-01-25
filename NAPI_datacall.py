@@ -6,7 +6,7 @@ class NAPI:
     """A class that helps users to access the endpoints of the NOAA National Centers for Environmental Information Climate Data Online API."""
 
     def __init__(self, token):
-        """Initialize the API call with a unique user token. Enter user token as a string."""
+        """Initialize the API call with a unique user token. Enter token in the file plottemp.py, not here."""
         self.token = token
 
 
