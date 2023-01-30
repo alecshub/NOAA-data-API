@@ -3,8 +3,6 @@ A set of modules that help users to access and plot data from the NOAA National 
 
 ## Required packages
 - requests
-- json
-- datetime
 - matplotlib
 
 ## Intention
