@@ -15,8 +15,8 @@ https://www.ncdc.noaa.gov/cdo-web/token
 ## File process and description
 example_file.py is an example user file.
 
-Instructions:
-1) **Enter your unique token as a string** at the top of the file. 
+**Instructions**:
+1) Enter your unique token as a string at the top of the file. 
 2) Uncomment one of the three location options.
 3) Uncomment one of the three output options.
 
