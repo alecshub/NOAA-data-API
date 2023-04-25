@@ -1,4 +1,4 @@
-# NAPI
+# NOAA Data API
 A set of modules that help users to access and plot data from the NOAA National Centers for Environmental Information (NCEI) Climate Data Online API using Python.
 
 ## Required packages
