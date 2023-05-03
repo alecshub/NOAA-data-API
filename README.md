@@ -1,10 +1,6 @@
 # NOAA Data API
 A user-friendly command-line interface to retrieve, process, and plot NOAA weather data with minimal user input.
 
-## Required packages
-- requests
-- matplotlib
-
 ## Intention
 The intention for this project was to develop a user-friendly command-line interface for NOAA's weather data API, which would allow a user to specify a variety of input parameters (e.g., location, start date, end date, type of weather data, units of measurement) and then choose to either receive a plot of those data or download a JSON file. Unfortunately, NOAA weather stations have spotty geographic and temporal coverage so messing with the input parameters often returns no data. In order to demonstrate the functionality of the program, I've had to settle for providing some example inputs. Read on to see how it works and try it out for yourself.
 
@@ -12,11 +8,19 @@ The intention for this project was to develop a user-friendly command-line inter
 First you will need to aquire your own unique token in order to make data calls to the NOAA NCEI API. It only takes a minute.
 https://www.ncdc.noaa.gov/cdo-web/token
 
-## File process and description
-example_file.py is an example user file.
+## How to get up and running
+
+
+1) Install required packages using pip or conda:
+- requests
+- matplotlib
+
+2) Download all project files from github and save in one folder.
+
+3) Open the example file (example_file.py) in your IDE.
 
 **Instructions**:
-1) Enter your unique token as a string at the top of the file. 
+1) Enter your unique token as a string at the top of example_file.py. 
 2) Uncomment one of the three location options.
 3) Uncomment one of the three output options.
 
